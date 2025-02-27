@@ -1,0 +1,41 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    padding: 15px;
+    text-align: center;
+    background-color: black;
+}
+
+#filme {
+    padding: 15px;
+    font-size: 15px;
+    border-radius: 13px;
+}
+
+#pesquisar {
+    background-color: rgb(17, 0, 255);
+    color: black;
+    border-radius: 13px;
+    padding: 15px;
+}
+
+#catalogo img {
+    width: 100%;
+    border-radius: 20px;
+    transition: 1s;
+}
+
+#catalogo img:hover {
+    transform: scale(0.9);
+    box-shadow: rgb(255, 0, 0) 0px 0px 30px;
+}
+
+#catalogo {
+    margin-top: 20px;
+    display: columns;
+    columns: 4;
+}
